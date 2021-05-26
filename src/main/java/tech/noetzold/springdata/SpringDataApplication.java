@@ -54,12 +54,12 @@ public class SpringDataApplication implements CommandLineRunner {
 
 		while (system) {
 			System.out.println("Qual função deseja executar?");
-			System.out.println("0 - Sair");
-			System.out.println("1 - Cargo");
-			System.out.println("2 - Funcionario");
-			System.out.println("3 - Unidade");
-			System.out.println("4 - Relatorios");
-			System.out.println("5 - Relatorio dinamico");
+			System.out.println("0 -Sair");
+			System.out.println("1 -Cargo");
+			System.out.println("2 -Funcionario");
+			System.out.println("3 -Unidade");
+			System.out.println("4 -Relatorios");
+			System.out.println("5 -Relatorio dinamico");
 			
 
 			Integer function = scanner.nextInt();
